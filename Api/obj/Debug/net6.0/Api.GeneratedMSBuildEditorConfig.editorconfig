@@ -1,4 +1,5 @@
 is_global = true
+build_property.RefitInternalNamespace = Api
 build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -8,9 +9,9 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Api
 build_property.RootNamespace = Api
-build_property.ProjectDir = C:\Users\LivroDJX\source\repos\Api\Api\
+build_property.ProjectDir = C:\Users\lucas.braga\source\repos\learning-csharp\Api\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\LivroDJX\source\repos\Api\Api
+build_property.MSBuildProjectDirectory = C:\Users\lucas.braga\source\repos\learning-csharp\Api
 build_property._RazorSourceGeneratorDebug = 

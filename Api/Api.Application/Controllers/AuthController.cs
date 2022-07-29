@@ -1,5 +1,6 @@
 ﻿using Api.Api.Application;
 using Api.Api.Application.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -12,8 +13,8 @@ namespace Api.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private DataContext _context;
-        private IConfiguration _configuration;
+        private readonly DataContext _context;
+        private readonly IConfiguration _configuration;
 
         public AuthController(IConfiguration configuration, DataContext dataContext)
         {
@@ -21,7 +22,7 @@ namespace Api.Controllers
             _configuration = configuration; 
         }
 
-        [HttpGet]
+        [HttpGet, Authorize(Roles = "Admin")]
         public async Task<ActionResult<UserDto>> Get()
         {
             return Ok(await _context.Users.ToListAsync());
@@ -97,7 +98,8 @@ namespace Api.Controllers
         {
             List<Claim> claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.Username)
+                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.Role, "Admin")
             };
 
             var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(

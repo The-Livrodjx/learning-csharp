@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LivroDJX\\source\\repos\\Api\\Api\\Api.csproj": {}
+    "C:\\Users\\lucas.braga\\source\\repos\\learning-csharp\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LivroDJX\\source\\repos\\Api\\Api\\Api.csproj": {
+    "C:\\Users\\lucas.braga\\source\\repos\\learning-csharp\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LivroDJX\\source\\repos\\Api\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.braga\\source\\repos\\learning-csharp\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\LivroDJX\\source\\repos\\Api\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\LivroDJX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LivroDJX\\source\\repos\\Api\\Api\\obj\\",
+        "projectPath": "C:\\Users\\lucas.braga\\source\\repos\\learning-csharp\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\lucas.braga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.braga\\source\\repos\\learning-csharp\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LivroDJX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas.braga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -58,9 +62,21 @@
               "target": "Package",
               "version": "[1.1.6, )"
             },
+            "Refit": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [

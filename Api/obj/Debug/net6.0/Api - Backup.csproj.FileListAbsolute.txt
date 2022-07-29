@@ -1,0 +1,7 @@
+C:\Users\lucas.braga\source\repos\learning-csharp\Api\obj\Debug\net6.0\Api - Backup.csproj.AssemblyReference.cache
+C:\Users\lucas.braga\source\repos\learning-csharp\Api\obj\Debug\net6.0\Api - Backup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.braga\source\repos\learning-csharp\Api\obj\Debug\net6.0\Api - Backup.AssemblyInfoInputs.cache
+C:\Users\lucas.braga\source\repos\learning-csharp\Api\obj\Debug\net6.0\Api - Backup.AssemblyInfo.cs
+C:\Users\lucas.braga\source\repos\learning-csharp\Api\obj\Debug\net6.0\Api - Backup.csproj.CoreCompileInputs.cache
+C:\Users\lucas.braga\source\repos\learning-csharp\Api\obj\Debug\net6.0\Api - Backup.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lucas.braga\source\repos\learning-csharp\Api\obj\Debug\net6.0\Api - Backup.MvcApplicationPartsAssemblyInfo.cache
